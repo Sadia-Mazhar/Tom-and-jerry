@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              .box{
+            width:1500px ;
+            background: pink;
+            border: 1px solid black;
+
+        }
+        img{
+            height: 150px;
+            width: 150px;
+        }
+        .innerbox{
+            width:150px ;
+            height:150px ;
+            border: 1px solid black;
+            background: darkcyan;
+            animation-name: tomjerry;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            position: relative;
+        }
+        @keyframes tomjerry{
+            0%{
+                left:0px;
+                top: 0px;
+                background: white;
+            }
+            15%{
+                left:300px;
+                top: 250px;
+                background: green;
+            }
+            30%{
+                left:500px;
+                top: 0px;
+                background: blue;
+            }
+            45%{
+                left:800px;
+                top: 0px;
+                background: red;
+            }
+            60%{
+                left:800px;
+                top: 380px;
+                background: grey;
+            }
+            85%{
+                left:600px;
+                top: 600px;
+                background: cyan;
+            }
+            100%{
+                left:0px;
+                top: 500px;
+                background: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="innerbox"><img src="https://m.media-amazon.com/images/I/71s3aJbIRkL._AC_UF1000,1000_QL80_.jpg" alt=""></div>
+    </div>
+    
+</body>
+</html>
